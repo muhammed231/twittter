@@ -1,0 +1,334 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>twitter clone </title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link
+   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <link rel="stylesheet" href="style.css"/>
+</head>
+<body> -->
+  <!--side bar-->
+  <!-- <div class="sidebar">
+  <i class="fab fa-twitter"></i>
+  <div class="sidebaroption active">
+    <span class="material-symbols-outlined">home </span>
+    <h2>home</h2>
+  </div>
+  <div class="sidebaroption">
+    <span class="material-symbols-outlined">search_check </span>
+    <h2>explore</h2>
+  </div>
+     <div class="sidebaroption">
+ <span class="material-symbols-outlined">message</span>
+    <h2>MESSAGES</h2>
+       <div class="sidebaroption">
+ <span class="material-symbols-outlined">cached</span>
+    <h2>GROK</h2>
+       <div class="sidebaroption">
+ <span class="material-symbols-outlined">bookmark</span>
+    <h2>bookmark</h2>
+       <div class="sidebaroption">
+ <span class="material-symbols-outlined">business_centeR</span>
+    <h2>JOB</h2>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X (Twitter) Clone</title>
+     <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+     <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">𝕏</div>
+            
+            <a href="#" class="nav-item active">
+                <i class="fas fa-home nav-icon"></i>
+                <span class="nav-text">Home</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-search nav-icon"></i>
+                <span class="nav-text">Explore</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-bell nav-icon"></i>
+                <span class="nav-text">Notifications</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-envelope nav-icon"></i>
+                <span class="nav-text">Messages</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-bolt nav-icon"></i>
+                <span class="nav-text">Grok</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-bookmark nav-icon"></i>
+                <span class="nav-text">Bookmarks</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-briefcase nav-icon"></i>
+                <span class="nav-text">Jobs</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-users nav-icon"></i>
+                <span class="nav-text">Communities</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fab fa-x-twitter nav-icon"></i>
+                <span class="nav-text">Premium</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-certificate nav-icon"></i>
+                <span class="nav-text">Verified Orgs</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-user nav-icon"></i>
+                <span class="nav-text">Profile</span>
+            </a>
+            
+            <a href="#" class="nav-item">
+                <i class="fas fa-ellipsis-h nav-icon"></i>
+                <span class="nav-text">More</span>
+            </a>
+            
+            <button class="post-button">Post</button>
+            
+            <div class="user-info">
+                <div class="user-avatar">AB</div>
+                <div>
+                    <div>Abdulquddous</div>
+                    <div style="color: #71767b; font-size: 14px;">@babatOlami</div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="header">
+                <div class="tabs">
+                    <div class="tab active">For you</div>
+                    <div class="tab">Following</div>
+                </div>
+            </div>
+            
+            <div class="compose-tweet">
+                <div class="compose-avatar">U</div>
+                <div class="compose-input">
+                    <textarea class="compose-textarea" placeholder="What's happening?" rows="3"></textarea>
+                    <div class="compose-actions">
+                        <div class="compose-icons">
+                            <i class="fas fa-image compose-icon"></i>
+                            <i class="fas fa-file-alt compose-icon"></i>
+                            <i class="fas fa-chart-bar compose-icon"></i>
+                            <i class="fas fa-smile compose-icon"></i>
+                            <i class="fas fa-calendar compose-icon"></i>
+                            <i class="fas fa-map-marker-alt compose-icon"></i>
+                        </div>
+                        <button class="tweet-button">Post</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tweets -->
+            <article class="tweet">
+                <div class="tweet-avatar" style="background: linear-gradient(45deg, #ff6b6b, #4ecdc4);">O</div>
+                <div class="tweet-content">
+                    <div class="tweet-header">
+                        <span class="tweet-name">Ozenua ™ • Framer Expert • Web designer</span>
+                        <i class="fas fa-check-circle" style="color: #1d9bf0; margin: 0 4px;"></i>
+                        <span class="tweet-username">@ozenua_</span>
+                        <span class="tweet-time">• 1h</span>
+                        <i class="fas fa-ellipsis-h" style="margin-left: auto; color: #71767b;"></i>
+                    </div>
+                    <div class="tweet-text">
+                        The superman movie felt like a kids show and I know I can't one the only one who thinks so
+                    </div>
+                    <div class="tweet-actions">
+                        <div class="tweet-action">
+                            <i class="fas fa-comment"></i>
+                            <span>2</span>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-retweet"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-heart"></i>
+                            <span>4</span>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>442</span>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="tweet">
+                <div class="tweet-avatar" style="background: linear-gradient(45deg, #ffd93d, #ff6b6b);">S</div>
+                <div class="tweet-content">
+                    <div class="tweet-header">
+                        <span class="tweet-name">Siji 🇳🇬</span>
+                        <span class="tweet-username">@Siji_Ibukun</span>
+                        <span class="tweet-time">• 57m</span>
+                        <i class="fas fa-ellipsis-h" style="margin-left: auto; color: #71767b;"></i>
+                    </div>
+                    <div class="tweet-text">
+                        😂Hating on Super dog now huh?
+                    </div>
+                    <div class="tweet-actions">
+                        <div class="tweet-action">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-retweet"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>33</span>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="tweet">
+                <div class="tweet-avatar" style="background: linear-gradient(45deg, #667eea, #764ba2);">O</div>
+                <div class="tweet-content">
+                    <div class="tweet-header">
+                        <span class="tweet-name">Orhun Parmaksız</span>
+                        <i class="fas fa-check-circle" style="color: #1d9bf0; margin: 0 4px;"></i>
+                        <span class="tweet-username">@orhundev</span>
+                        <span class="tweet-time">• 4h</span>
+                        <i class="fas fa-ellipsis-h" style="margin-left: auto; color: #71767b;"></i>
+                    </div>
+                    <div class="tweet-text">
+                        Crazy news: Ratatui made it into a car dashboard 🏎️🎉<br><br>
+                        🦀 suzui-rs — Suzuki Serial Data Line (SDL) viewer in Rust<br><br>
+                        ⚫ Displays live car data, powered by Pi and shown on stereo over RCA.<br><br>
+                        🟢 Made for Suzuki Baleno (G13BB)<br><br>
+                        🔴 Written in Rust & built with @ratatui_rs<br><br>
+                        ⭐ GitHub:<br>
+                        Show more
+                    </div>
+                    <div class="video-container">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2025-07-15_10-00-40.jpg-PGquBAkGkjoupbD1LOoB9s9w3j1YKD.jpeg" alt="Car dashboard display" class="video-thumbnail">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="video-duration">0:19</div>
+                    </div>
+                    <div class="tweet-actions">
+                        <div class="tweet-action">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-retweet"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="tweet-action">
+                            <i class="fas fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+            
+            <div class="widget">
+                <div class="widget-header">Subscribe to Premium</div>
+                <div class="widget-content">
+                    <div class="premium-text">Subscribe to unlock new features and if eligible, receive a share of revenue.</div>
+                    <button class="subscribe-button">Subscribe</button>
+                </div>
+            </div>
+            
+            <div class="widget">
+                <div class="widget-header">Live on X</div>
+                <div class="live-item">
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                        <span class="live-badge">LIVE</span>
+                        <span style="font-weight: bold;">AL JAZEERA ENGLISH</span>
+                        <span style="background: #1d9bf0; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px;">1,697</span>
+                    </div>
+                    <div style="color: #71767b; font-size: 13px;">
+                        <i class="fas fa-check-circle" style="color: #1d9bf0;"></i>
+                        Al Jazeera English • Hosting
+                    </div>
+                </div>
+            </div>
+            
+            <div class="widget">
+                <div class="widget-header">What's happening</div>
+                <div class="trending-item">
+                    <div style="font-weight: bold; margin-bottom: 4px;">Justin Bieber SWAG Launch</div>
+                    <div style="color: #71767b; font-size: 13px;">36 minutes ago</div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-category">Politics • Trending</div>
+                    <div class="trending-topic">President Buhari</div>
+                    <div class="trending-posts">186K posts</div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-category">Trending in Nigeria</div>
+                    <div class="trending-topic">Public Holiday</div>
+                    <div class="trending-posts">23.7K posts</div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-category">Trending in Nigeria</div>
+                    <div class="trending-topic">Just 1</div>
+                    <div class="trending-posts">1.1M posts</div>
+                </div>
+                <div class="trending-item">
+                    <div class="trending-category">Sports • Trending</div>
+                    <div class="trending-topic">#INDvsENG</div>
+                    <div class="trending-posts">67.1K posts</div>
+                </div>
+                <div class="show-more">Show more</div>
+            </div>
+        </aside>
+    </div>
+    
+</body>
+</html>
